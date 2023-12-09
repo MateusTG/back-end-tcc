@@ -26,9 +26,26 @@ const server = net.createServer(socket =>{
         
         if (receivedData.length > 0) {
             try {
-                const {date,time,...jsonData} = JSON.parse(receivedData);
+                const {date, time, latitude, longitude,...jsonData} = JSON.parse(receivedData);
                 
-                await prisma.location.create({data: {date: new Date(Date.parse(`${date} ${time}`)),...jsonData}})
+                //await prisma.location.create({data: {date: new Date(Date.parse(`${date} ${time}`)),...jsonData}})
+                const parserDate = new Date(Date.parse(`${date} ${time}`))
+                if(isNaN(parserDate.getTime())){
+                    console.error('Invalid date or time format:', date, time);
+                    return;
+                }
+                if (latitude === 0 || longitude === 0) {
+                    console.error('Invalid latitude or longitude:', latitude, longitude);
+                    return; // Ignorar dados inválidos
+                }
+                await prisma.location.create({
+                    data: {
+                        date: parserDate,
+                        latitude: latitude,
+                        longitude: longitude,
+                        ...jsonData,
+                    }
+                });
             } catch (error) {
                 console.error('Error parsing JSON data:', error);
             }
