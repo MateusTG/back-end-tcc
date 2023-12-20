@@ -12,7 +12,7 @@ Para rodar o projeto é preciso instalar o nodejs o express e o typescript
 
 Para instalar o node é preciso rodar o comando: 
 ```
-Por hora sem depencdências
+npm init
 ```
 Para instalar o express é preciso rodar o comando:
 ```
@@ -78,34 +78,23 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [Socket I/O]([https://maven.apache.org/](https://socket.io/pt-br/get-started/chat)) - Sockets
 * [Prisma](https://www.prisma.io/docs/getting-started) - ORM do banco de dados
 
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
 ## 📌 Versão
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+Essa é a primeira versão usado para o trabalho de conclusão de curso.
 
 ## ✒️ Autores
 
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+* **Autor** - *Trabalho de Conclusão de Curso* - [Mateus Tamarindo Gonzaga](https://github.com/mateusTG)
 
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+## 📄 Esse projeto é o backend do meu Projeto de TCC 
 
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto encontra-se registrado na biblioteca da UNIVASF do campus de Juazeiro
 
 ## 🎁 Expressões de gratidão
+* Esse projeto encontra-se disponível para evolução, sintam-se a vontade em evoluí-lo
 
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
 
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
