@@ -70,25 +70,13 @@ Ao executar a rota Post o resultado esperado é:
 }
 ```
 
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+* [ExpressJs]([http://www.dropwizard.io/1.0.2/docs/](https://expressjs.com/pt-br/starter/installing.html)) - O framework web usado
+* [Socket I/O]([https://maven.apache.org/](https://socket.io/pt-br/get-started/chat)) - Sockets
+* [Prisma](https://www.prisma.io/docs/getting-started) - ORM do banco de dados
 
 ## 🖇️ Colaborando
 
