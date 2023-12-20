@@ -72,8 +72,6 @@ Ao executar a rota Post o resultado esperado é:
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
 * [ExpressJs]([http://www.dropwizard.io/1.0.2/docs/](https://expressjs.com/pt-br/starter/installing.html)) - O framework web usado
 * [Socket I/O]([https://maven.apache.org/](https://socket.io/pt-br/get-started/chat)) - Sockets
 * [Prisma](https://www.prisma.io/docs/getting-started) - ORM do banco de dados
