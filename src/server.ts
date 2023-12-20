@@ -1,5 +1,4 @@
 import express from 'express'
-import prisma from './prisma';
 const cors = require('cors')
 import { Router, Request, Response } from 'express';
 const locationRouter = require('./modules/location/service/location.Services')

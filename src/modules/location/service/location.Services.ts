@@ -28,7 +28,6 @@ const server = net.createServer(socket =>{
             try {
                 const {date, time, latitude, longitude,...jsonData} = JSON.parse(receivedData);
                 
-                //await prisma.location.create({data: {date: new Date(Date.parse(`${date} ${time}`)),...jsonData}})
                 const parserDate = new Date(Date.parse(`${date} ${time}`))
                 if(isNaN(parserDate.getTime())){
                     console.error('Invalid date or time format:', date, time);
